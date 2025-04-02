@@ -1,0 +1,146 @@
+---
+// No props or scripts are needed for this basic form
+---
+
+<div class="col-lg-4 blog_detail_right">
+  <div id="sidebarWrap">
+    <div id="sidebar">
+      <h2 class="about__title">
+        <span class="subtext w-100 mw-100">Looking to Hire Virtual Accountant?</span>
+      </h2>
+      <div class="blog_details_form">
+        <div id="staffz_bform">
+          <div
+            class="benefitform__holder rounded bg-light wow animate__animated animate__fadeIn animated"
+            data-wow-duration="1s"
+            style="visibility: visible; animation-duration: 1s;"
+          >
+            <form
+              action="https://www.staffz.com/mail"
+              id="leadForm"
+              method="post"
+              enctype="multipart/form-data"
+            >
+              <input type="hidden" name="subject" id="custom_subject" value="" />
+              <input
+                type="hidden"
+                name="redirect_url"
+                id="custom_redirect_url"
+                value="https://www.staffz.com/thankyou"
+              />
+
+              <div class="form-group mb-2">
+                <label class="d-none sr-only" for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control form-control-lg igs-input-field"
+                  placeholder="Name"
+                  data-required="required"
+                  data-input-name="first_name"
+                />
+              </div>
+
+              <div class="form-group mb-2">
+                <label class="d-none sr-only" for="custom_email">Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="custom_email"
+                  class="form-control form-control-lg igs-input-field"
+                  placeholder="Email"
+                  data-regex="required"
+                  data-required="required"
+                  data-input-name="email_address"
+                />
+              </div>
+
+              <div class="form-group mb-2">
+                <label class="d-none sr-only" for="custom_phone">Phone</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="custom_phone"
+                  class="form-control form-control-lg igs-input-field"
+                  placeholder="Phone"
+                  data-input-name="phone_number"
+                  data-required="required"
+                  data-regex="required"
+                />
+              </div>
+
+              <div class="form-group mb-2">
+                <label class="d-none sr-only" for="custom_company">Company</label>
+                <input
+                  type="text"
+                  name="company"
+                  id="custom_company"
+                  class="form-control form-control-lg igs-input-field"
+                  placeholder="Company"
+                  data-input-name="company_name"
+                  data-required="required"
+                />
+              </div>
+
+              <div class="form-group mb-2">
+                <label for="source_from" class="d-none">Source</label>
+                <select
+                  name="source_from"
+                  id="source_from"
+                  class="form-control igs-input-field form-control-lg"
+                  data-input-name="source_from"
+                  data-required="required"
+                  title="Select a source"
+                >
+                  <option selected disabled>How did you hear about us?</option>
+                  <option value="Direct">Direct</option>
+                  <option value="Google">Google</option>
+                  <option value="Bing">Bing</option>
+                  <option value="Search">Search</option>
+                  <option value="Newsletter">Newsletter</option>
+                  <option value="Email">Email</option>
+                  <option value="Webinar">Webinar</option>
+                  <option value="Referral">Referral</option>
+                </select>
+              </div>
+
+              <div class="form-group mb-2">
+                <label class="d-none sr-only" for="custom_country">Country</label>
+                <input
+                  type="text"
+                  name="country"
+                  id="custom_country"
+                  class="form-control form-control-lg igs-input-field"
+                  placeholder="Country"
+                  data-input-name="country_name"
+                  data-required="required"
+                />
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="d-none sr-only" for="custom_tequirements">Requirements</label>
+                <textarea
+                  class="form-control"
+                  name="requirement"
+                  id="custom_tequirements"
+                  placeholder="Requirements"
+                  style="height: 60px"
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <button
+                  type="submit"
+                  class="g-recaptcha btn btn-lg cta quoteForm__form--btn btn-striped-hover d-block w-100"
+                >
+                  Get Quote Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

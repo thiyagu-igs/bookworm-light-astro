@@ -6,21 +6,17 @@
     },
     {
       "name": "About",
-      "url": "../about-us"
+      "url": "https://www.beacon-financials.com/aboutus"
     },
     {
       "name": "Contact",
-      "url": "/contact"
+      "url": "https://www.beacon-financials.com/contact"
     },
     {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
-      "children": [
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
+      "children": [       
         {
           "name": "Categories",
           "url": "/categories"
@@ -28,11 +24,7 @@
         {
           "name": "Tags",
           "url": "/tags"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
+        },        
         {
           "name": "Privacy Policy",
           "url": "/privacy-policy"
@@ -40,18 +32,10 @@
       ]
     }
   ],
-  "footer": [
+  "footer": [    
     {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Terms",
+      "url": "/terms"
     },
     {
       "name": "Privacy Policy",
